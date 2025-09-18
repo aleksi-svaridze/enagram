@@ -1,24 +1,24 @@
 import { LeftRightSideDirectionArrowIcon, PlusIcon } from '../../assets/svgs/svgs';
 import { Btn } from '../Btn/Btn';
 import './Main.scss';
-// import { useWindowSize } from 'usehooks-ts';
 
 const Main = () => {
-  // const {width} = useWindowSize()
 
     return (
         <main className='main'>
           <header className='main-header'>
             <form className='main-header__form'>
-              
+
               <select>
                 <option>ქართული</option>
               </select>
 
-              <div>
-                <input type='checkbox' />
-                <label>ფორმატის შენარჩუნება</label>
-              </div>
+              <label className="main-header__form--checkbox">
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+                <p>ფორმატის შენარჩუნება</p>
+              </label>
+            
 
             </form>
 

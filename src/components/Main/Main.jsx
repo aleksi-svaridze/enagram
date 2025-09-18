@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import { LeftRightSideDirectionArrowIcon, PlusIcon } from '../../assets/svgs/svgs';
 import { Btn } from '../Btn/Btn';
 import './Main.scss';
 
 const Main = () => {
+  const [firstTextArea, setFirstTextarea] = useState('')
+  const [secondTextArea, setSecondTextarea] = useState('')
 
     return (
         <main className='main'>
@@ -27,11 +30,11 @@ const Main = () => {
           </header>
 
           <div className='main-text-checker-wrapper'>
-            <textarea className='main-text-checker-wrapper__textarea' placeholder='დაიწყე წერა...'></textarea>
+            <textarea className='main-text-checker-wrapper__textarea' value={firstTextArea} placeholder='დაიწყე წერა...'></textarea>
             <div style={{flexShrink: '0', height: '3.2rem', width: '3.2rem'}}>
                 <LeftRightSideDirectionArrowIcon fill={'none'} width={'32'} height={'32'} />
             </div>
-            <textarea className='main-text-checker-wrapper__textarea' placeholder='დაიწყე წერა...'></textarea>
+            <textarea className='main-text-checker-wrapper__textarea' value={secondTextArea} placeholder='დაიწყე წერა...'></textarea>
           </div>
 
           <div className='main-btn-wrapper'>

@@ -22,7 +22,6 @@ aside {
 }
 
 .menu {
-    background-color: red;
     padding-left: 1.12rem;
 
     &-list {
@@ -33,6 +32,41 @@ aside {
             display: flex;
             align-items: center;
             column-gap: .9rem;
+            color: $color-white;
+
+            &--active {
+                background-color: $color-white;
+                height: 5.2rem;
+                width: 23.4rem;
+                border-top-left-radius: 2.6rem;
+                border-bottom-left-radius: 2.6rem;
+                margin-left: -1.2rem;
+                padding-left: 1.2rem;
+                position: relative;
+                color: $color-primary;
+
+                & svg {
+                    fill: $color-primary;
+                }
+
+                &::after {
+                    content:  url('../../assets/top-corner.svg');
+                    position: absolute;
+                    right: .4rem;
+                    top: -.9rem;
+                    width: 1.6rem;
+                    height: 1rem;
+                }
+
+                &::before {
+                    content:  url('../../assets/bottom-corner.svg');
+                    position: absolute;
+                    right: .4rem;
+                    bottom: -.9rem;
+                    width: 1.6rem;
+                    height: 1rem;
+                }
+            }
         }
 
         &__item:not(:last-child) {

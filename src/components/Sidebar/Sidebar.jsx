@@ -17,11 +17,11 @@ const Sidebar = () => {
                         <CheckIcon /> მართლმწერი
                     </li>
 
-                    <li className='menu-list__item'>
+                    <li className='menu-list__item '>
                         <CheckSpelling /> ტექსტის შედარება
                     </li>
 
-                    <li className='menu-list__item'>
+                    <li className='menu-list__item menu-list__item--active'>
                         <Mic /> ხმა <ChevronRightIcon /> ტექსტი
                     </li>
 

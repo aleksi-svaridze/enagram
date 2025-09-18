@@ -1,0 +1,24 @@
+*, 
+*::after, 
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: "Helvetica"; 
+    src: url("./assets/fonts/Helvetica.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-size: 62.5%; // 10px => 1rem
+}
+
+body {
+    font-family: "Helvetica", sans-serif; 
+}

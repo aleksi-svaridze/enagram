@@ -1,0 +1,14 @@
+@import '../../scss/variables.scss';
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: .6rem;
+    cursor: pointer;
+
+    background-color: rgba(56, 58, 72, .6);
+    color: $color-white;
+}

@@ -1,0 +1,13 @@
+@import '../scss/variables.scss';
+
+
+.app {
+    display: flex;
+    background-color: yellow;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+}

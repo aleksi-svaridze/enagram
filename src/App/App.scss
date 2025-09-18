@@ -2,9 +2,12 @@
 
 
 .app {
-    display: flex;
     background-color: yellow;
     min-height: 100vh;
+
+    @media screen and (min-width: 769px) {
+        display: flex;
+    }
 }
 
 .container {

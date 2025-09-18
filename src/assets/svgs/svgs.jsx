@@ -102,3 +102,28 @@ export const PlusIcon = () => {
         </svg>
     )
 }
+
+export const MenuIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M3 12H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    )
+}
+
+export const ChevronDownIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <g clip-path="url(#clip0_6021_536)">
+            <path d="M4.3225 4.66797L7 7.33964L9.6775 4.66797L10.5 5.49047L7 8.99047L3.5 5.49047L4.3225 4.66797Z" fill="#132450" fill-opacity="0.7"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_6021_536">
+            <rect width="14" height="14" fill="white" transform="matrix(-1 0 0 1 14 0)"/>
+            </clipPath>
+            </defs>
+        </svg>
+    )
+}

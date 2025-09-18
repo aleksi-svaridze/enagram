@@ -1,0 +1,30 @@
+@import '../../scss/variables.scss';
+
+.mobile-header {
+    height: 6rem;
+    background-color: $color-primary;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+
+    &__icon {
+        cursor: pointer;
+    }
+}
+
+.active-service {
+    height: 7.2rem;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    background-color: $color-white;
+    border-bottom: .1rem solid #EDEDED;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        column-gap: .4rem;
+    }
+}

@@ -1,12 +1,16 @@
 import { LeftRightSideDirectionArrowIcon, PlusIcon } from '../../assets/svgs/svgs';
 import { Btn } from '../Btn/Btn';
 import './Main.scss';
+// import { useWindowSize } from 'usehooks-ts';
 
 const Main = () => {
+  // const {width} = useWindowSize()
+
     return (
         <main className='main'>
           <header className='main-header'>
             <form className='main-header__form'>
+              
               <select>
                 <option>ქართული</option>
               </select>
@@ -15,6 +19,7 @@ const Main = () => {
                 <input type='checkbox' />
                 <label>ფორმატის შენარჩუნება</label>
               </div>
+
             </form>
 
             <Btn textContent={'ახლის გახსნა'} Icon={PlusIcon} paddingLeft={'1.2rem'} paddingRight={'1.6rem'} />

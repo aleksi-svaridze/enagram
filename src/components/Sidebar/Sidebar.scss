@@ -43,11 +43,6 @@ aside {
                 margin-left: -1.2rem;
                 padding-left: 1.2rem;
                 position: relative;
-                color: $color-primary;
-
-                & svg {
-                    fill: $color-primary;
-                }
 
                 &::after {
                     content:  url('../../assets/top-corner.svg');

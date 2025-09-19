@@ -1,5 +1,5 @@
 import './Sidebar.scss';
-import { AlignCenterIcon, CheckIcon, CheckSpelling, ChevronRightIcon, ChevronsLeftIcon, DotsMenuIcon, Mic, PdfIcon } from '../../assets/svgs/svgs';
+import { AlignCenterIcon, CheckIcon, CheckSpellingBlue, CheckSpellingWhite, ChevronRightIcon, ChevronsLeftIcon, DotsMenuIcon, Mic, PdfIcon } from '../../assets/svgs/svgs';
 import Logoimage from '../../assets/images/logo.png';
 
 const Sidebar = () => {
@@ -17,11 +17,12 @@ const Sidebar = () => {
                         <CheckIcon /> მართლმწერი
                     </li>
 
-                    <li className='menu-list__item '>
-                        <CheckSpelling /> ტექსტის შედარება
+                    <li className='menu-list__item menu-list__item--active'>
+                        {true ? <CheckSpellingBlue /> : <CheckSpellingWhite />}
+                         ტექსტის შედარება
                     </li>
 
-                    <li className='menu-list__item menu-list__item--active'>
+                    <li className='menu-list__item'>
                         <Mic /> ხმა <ChevronRightIcon /> ტექსტი
                     </li>
 

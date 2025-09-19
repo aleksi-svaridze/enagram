@@ -16,7 +16,7 @@ export const CheckIcon = () => {
     )
 }
 
-export const CheckSpelling = () => {
+export const CheckSpellingBlue = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M4.71899 11.396H11.095" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -26,7 +26,13 @@ export const CheckSpelling = () => {
             <path d="M19.199 8.3491C20.267 9.4171 20.267 11.1481 19.199 12.2151C18.131 13.2831 16.4 13.2831 15.333 12.2151C14.265 11.1471 14.265 9.4161 15.333 8.3491C16.4 7.2811 18.132 7.2811 19.199 8.3491" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M4 17H20" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M16 21H4" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-        s</svg>
+        </svg>
+    )
+}
+
+export const CheckSpellingWhite = () => {
+    return(
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.71875 11.396H11.0947" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M7.91534 4L4.02734 13.014" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M11.7891 13.014L7.91406 4" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M20 7.56201V13" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M19.1982 8.3491C20.2662 9.4171 20.2662 11.1481 19.1982 12.2151C18.1302 13.2831 16.3993 13.2831 15.3322 12.2151C14.2643 11.1471 14.2643 9.4161 15.3322 8.3491C16.3993 7.2811 18.1312 7.2811 19.1982 8.3491" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M4 17H20" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path><path d="M16 21H4" stroke="#132450" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
     )
 }
 

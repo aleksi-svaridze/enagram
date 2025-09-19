@@ -1,6 +1,6 @@
 import './MobileHeader.scss';
 import LogoPng from '../../assets/images/Logo.png';
-import { CheckSpelling, ChevronDownIcon, MenuIcon } from '../../assets/svgs/svgs';
+import { CheckSpellingBlue, ChevronDownIcon, MenuIcon } from '../../assets/svgs/svgs';
 
 export const MobileHeader = () => {
     return(
@@ -14,7 +14,7 @@ export const MobileHeader = () => {
             </header>
 
             <div className='active-service'>
-                <div className='active-service__content'><CheckSpelling /> <p>ტექსტის შედარება</p> <ChevronDownIcon /></div>
+                <div className='active-service__content'><CheckSpellingBlue /> <p>ტექსტის შედარება</p> <ChevronDownIcon /></div>
             </div>
         </>
     )

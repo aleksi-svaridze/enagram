@@ -1,15 +1,14 @@
-@import '../scss/variables.scss';
-
+@use "../scss/variables.scss" as colors;
 
 .app {
-    min-height: 100vh;
+  min-height: 100vh;
 
-    @media screen and (min-width: 769px) {
-        display: flex;
-    }
+  @media screen and (min-width: 769px) {
+    display: flex;
+  }
 }
 
 .container {
-    max-width: 144rem;
-    margin: 0 auto;
+  max-width: 144rem;
+  margin: 0 auto;
 }

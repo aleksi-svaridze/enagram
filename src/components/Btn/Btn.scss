@@ -1,4 +1,4 @@
-@import '../../scss/variables.scss';
+@use '../../scss/variables.scss' as colors;
 
 .btn {
     display: inline-flex;
@@ -10,5 +10,5 @@
     cursor: pointer;
 
     background-color: rgba(56, 58, 72, .6);
-    color: $color-white;
+    color: colors.$color-white;
 }

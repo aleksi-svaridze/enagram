@@ -1,8 +1,8 @@
-@import '../../scss/variables.scss';
+@use '../../scss/variables.scss' as colors;
 
 .mobile-header {
     height: 6rem;
-    background-color: $color-primary;
+    background-color: colors.$color-primary;
 
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     padding: 0 3rem;
     display: flex;
     align-items: center;
-    background-color: $color-white;
+    background-color: colors.$color-white;
     border-bottom: .1rem solid #EDEDED;
 
     &__content {

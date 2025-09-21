@@ -1,10 +1,11 @@
-@import '../../scss/variables.scss';
+@use '../../scss/variables.scss' as colors;
+
 
 aside {
     width: 24rem;
-    background-color: $color-primary;
+    background-color: colors.$color-primary;
     padding: 1.2rem 1.2rem 2rem 1.28rem;
-    color: $color-white;
+    color: colors.$color-white;
     position: relative;
     flex-shrink: 0;
 }
@@ -32,10 +33,10 @@ aside {
             display: flex;
             align-items: center;
             column-gap: .9rem;
-            color: $color-white;
+            color: colors.$color-white;
 
             &--active {
-                background-color: $color-white;
+                background-color: colors.$color-white;
                 height: 5.2rem;
                 width: 23.4rem;
                 border-top-left-radius: 2.6rem;
@@ -90,19 +91,14 @@ aside {
             height: 1.8rem;
             width: 1.8rem;
             border-radius: 50%;
-            border: .1rem solid $color-white;
+            border: .1rem solid colors.$color-white;
 
             background-color: #9EC8FF;
-            color: $color-primary;
+            color: colors.$color-primary;
 
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-
-        &--dot-menu {
-            background-color: red;
-            align-self: self-end;
         }
     }
 }
